@@ -1,0 +1,248 @@
+h1
+{
+  text-align: center;
+  text-decoration: solid;
+  color: rgb(210, 30, 30);
+  height: 200;
+
+  
+
+
+}
+nav
+{
+
+height: 59px;
+width: 700x;
+color:crimson;
+background-color: antiquewhite
+
+}
+
+
+.txt {
+    width: 55vw;
+    position: relative;
+    text-align: center;
+    /* animation-name: harry1; */
+    animation-name: harry1;
+    animation-duration: 13s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes harry1 {
+    from {
+    left:-600px;
+    }
+
+    to {
+    left:100%;
+    }
+}
+
+
+
+.service-grid {
+    background: #fcfcfc;
+  }
+   .service-title h1 {
+    position: relative;
+    display: inline-block;
+  }
+  .service-icon {
+    position: relative;
+  }
+  .service-title p {
+    padding: 0 190px;
+    margin-bottom: 10px;
+  }
+  .about-info-text h1 {
+    margin-bottom: 23px;
+    text-transform: capitalize;
+    font-weight: 700;
+    line-height: .9;
+  }
+  .about-info-text p {
+    padding: 0 100px;
+    font-size: 18px;
+    margin-bottom: 26px;
+      position: relative;
+  }
+  .about-content p {
+    margin-bottom: 0;
+  }
+  .about-info-text a {
+    margin-bottom: 20px;
+      position: relative;
+  }
+  .service-icon i {
+    font-size: 40px;
+    color: #e8bc00;
+    margin-bottom: 20px;
+    display: inline-block;
+  }
+  .service-wrap {
+    border: 1px solid #e6e6e6;
+    padding: 50px 30px;
+      position: relative;
+  }
+  
+  .service-wrap p{
+      position: relative;
+  }
+  
+  .service-wrap:hover {
+    background-image: url(logo1.png);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: local;
+    transition: all .5s;
+  }
+  
+  .service-wrap:hover:before {
+    background: rgba(0, 0, 0, 0.2901960784313726);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0px;
+    content: "";
+    top: 0;
+    opacity: 1;
+  }
+  
+  .service-wrap:hover h1,.service-wrap:hover p{
+    color: #916e6e;
+  }
+  .service-wrap h1 {
+    font-weight: 600;
+    color: #1e2331;
+    margin-bottom: 17px;
+    font-size: 18px;
+    text-transform: capitalize;
+      position: relative;
+  }
+  .service-wrap a {
+    font-size: 14px;
+    font-weight: 600;
+      position: relative;
+  
+  }
+
+  
+.service-wrap {
+    border: 1px solid #e6e6e6;
+    padding: 50px 30px;
+      position: relative;
+  }
+  
+  .service-wrap p{
+      position: relative;
+  }
+  
+  .service-wrap:hover {
+    background-image: url(logo1.png);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: local;
+    transition: all .5s;
+  }
+  
+  .service-wrap:hover:before {
+    background: rgba(0, 0, 0, 0.2901960784313726);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0px;
+    content: "";
+    top: 0;
+    opacity: 1;
+  }
+  
+  .service-wrap:hover h1,.service-wrap:hover p{
+    color: #cb1313;
+  }
+  .service-wrap h1{
+    font-weight: 600;
+    color: #1e2331;
+    margin-bottom: 17px;
+    font-size: 18px;
+    text-transform: capitalize;
+      position: relative;
+  }
+  .service-wrap a {
+    font-size: 14px;
+    font-weight: 600;
+      position: relative;
+  
+  }
+
+
+  /* .fa {  
+    padding: 20px;
+    font-size: 40px;
+    width: 60px;
+    text-decoration: none;
+    margin: 5px 80px;
+} 
+
+  }  
+  .fa:hover {
+    opacity: 0.9;
+}
+  .fa-facebook {  
+    background: #3B5998;  
+    color: white;
+    margin-block-start:250px;
+      
+  }  
+  .fa-twitter {  
+    background: #55ACEE;  
+    color: white;  
+  }  
+  .fa-pinterest {  
+    background: #cb2027;  
+    color: white;  
+  }  
+  .fa-linkedin {  
+    background: #007bb5;  
+    color: white;  
+  }  
+  .fa-instagram {  
+    background: #125688;  
+    color: white;  
+  }  
+  .fa-youtube {  
+    background: #bb0000;  
+    color: white;  
+  }  
+  .fa-google {  
+    background: #dd4b39;  
+    color: white;  
+  }  
+  .fa-snapchat-ghost {  
+    background: #fffc00;  
+    color: white;  
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;  
+  }  
+  .fa-skype {  
+    background: #00aff0;  
+    color: white;  
+  }  
+  .fa:hover {  
+      opacity: 0.9;  
+  } */
+  
+  .bi-twitter {
+    color: #55acee;
+    margin: 5px 20px;
+}
+
+.bi-google {
+    color: #dd4b39;
+    margin: 5px 20px;
+}
+
+.bi-youtube {
+    color: #dd4b39;
+    margin: 5px 20px;
+}
